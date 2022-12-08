@@ -78,7 +78,7 @@ and dea.date = vac.date
 where dea.continent is not null
 go
 
-drop view Vaccination;
+drop view Vac2;
 
 SELECT 
 OBJECT_SCHEMA_NAME(o.object_id) schema_name,o.name
